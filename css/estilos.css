@@ -4,8 +4,12 @@
     box-sizing: 0;
 }
 
-body{
+h1, h2, h3 {
     font-family: 'Jost', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .contenedor{
@@ -173,9 +177,21 @@ header .texto-header{
     transform: scale(1);
 }
 
+/* Testimonio */
+
 .testimonios{
     padding: 50px 200px 50px 200px;
     font-weight: 300;
     text-align: justify;
+}
+
+/*presentacion*/
+
+.proyecto video {
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding: 50px 0px;
+
 }
 
